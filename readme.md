@@ -17,3 +17,22 @@ Example:
 ```js
 await agent("What's the current weather in my current location?");
 ```
+
+## Thread Index Usage
+
+The `thread.index.js` file contains functions to interact with threads. Here's how to use them:
+
+```js
+// First, set the assistant and thread IDs:
+const asstID = "your-assistant-id";
+const threadID = "your-thread-id";
+
+// To list all messages in a thread, call the `listMessages` function:
+listMessages();
+
+// To run the assistant's thread, call the `runThread` function:
+runThread();
+
+// To create a message in the thread, call the `createMessage` function:
+createMessage();
+```
